@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="Level UP Rclone is a personal utility for securely backing up game-art and mod archives from a private server to the owner's Google Drive.">
+  <title>Level UP Rclone — Personal backup utility</title>
+  <style>
+    :root { color-scheme: dark; font: 16px/1.65 system-ui, -apple-system, Segoe UI, sans-serif; background:#0b1120; color:#e9eefb; }
+    * { box-sizing: border-box; }
+    body { margin:0; }
+    main { max-width:800px; margin:72px auto 90px; padding:0 25px; }
+    .brand { color:#83e5b9; font-weight:800; letter-spacing:.14em; text-transform:uppercase; font-size:.8rem; }
+    h1 { font-size:clamp(2.3rem,6vw,3.65rem); letter-spacing:-.045em; line-height:1.1; margin:18px 0; }
+    h2 { margin:44px 0 10px; font-size:1.3rem; }
+    p { color:#c0ccde; margin:12px 0; }
+    .lead { font-size:1.14rem; max-width:690px; }
+    .card { border:1px solid #27354c; background:#141e30; border-radius:18px; padding:22px 26px; margin:27px 0; }
+    a { color:#9ceccc; }
+    .pill { display:inline-block; font-size:.78rem; border:1px solid #315e51; color:#a0eac9; border-radius:99px; padding:5px 13px; }
+    hr { border:0; border-top:1px solid #29354a; margin:45px 0; }
+    footer { margin-top:45px; font-size:.85rem; color:#94a2b9; }
+    @media (prefers-color-scheme: light) { :root { color-scheme: light; background:#f7f9fc; color:#15243b; } p { color:#485a72; } .card { background:white; border-color:#d9e1ec; } .brand { color:#0e785b; } .pill { color:#136849; border-color:#bdd9ce; } a { color:#116b55; } footer { color:#64748b; } }
+  </style>
+</head>
+<body>
+<main>
+  <div class="brand">Level UP · Private utility</div>
+  <h1>Level UP Rclone</h1>
+  <span class="pill">Personal-use backup tool</span>
+  <p class="lead">Level UP Rclone is a private, owner-operated utility that uses <a href="https://rclone.org/">Rclone</a> and the Google Drive API to back up archives of game mods and artwork from a privately managed server to the owner's Google Drive account.</p>
+  <div class="card">
+    <h2 style="margin-top:0">What it does</h2>
+    <p>The tool lists files in the connected Google Drive, uploads ZIP backup archives, and checks file metadata and checksums to verify uploads. It may organize backup files in folders selected by the owner.</p>
+    <p>It is not a public app, does not accept public accounts, and is operated only for the owner's personal backups. The tool requests Google Drive permissions to perform these operations.</p>
+  </div>
+  <h2>Privacy &amp; data handling</h2>
+  <p>Learn what information the utility accesses, why it is used, and how to revoke access in our <a href="privacy.html">Privacy Policy</a>.</p>
+  <hr>
+  <section lang="ru">
+    <h2>Описание на русском</h2>
+    <p><strong>Level UP Rclone</strong> — личная утилита резервного копирования игровых модов и артов с собственного сервера в Google Диск владельца. Она создаёт и загружает ZIP-архивы, проверяет их целостность и ведёт учёт сохранённых файлов.</p>
+    <p>Приложение не предназначено для посторонних пользователей. Подробнее — в <a href="privacy.html#ru">политике конфиденциальности</a>.</p>
+  </section>
+  <footer>Level UP Rclone is an independent personal utility. It is not affiliated with or endorsed by Google.</footer>
+</main>
+</body>
+</html>
